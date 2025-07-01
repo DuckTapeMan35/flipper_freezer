@@ -1,0 +1,8 @@
+App(
+    appid="freeze",
+    name="freeze",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="freeze_app",
+    stack_size=1 * 1024,
+    sdk_headers=["gui"]
+)
